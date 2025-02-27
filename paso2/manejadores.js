@@ -10,10 +10,10 @@ area.addEventListener('click',
         calculateAreas();  
     }
 )
-let distancia=document.getElementById("centroid distance");
+let distancia=document.getElementById("distance");
 area.addEventListener('click',
     function(){
         console.log("VAMOS A CALCULAR LA DISTANCIA ENTRE CENTROIDES");
-        calculateDistance();  
+        calculateDistances();  
     }
 )
